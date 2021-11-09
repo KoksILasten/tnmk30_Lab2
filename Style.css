@@ -40,6 +40,9 @@ body {
   background-color: gray;
   color: white;
 }
+#clock {
+  font-size: 40px;
+}
 h1 {
   font-family: "Stardos Stencil", cursive;
   color: rgb(58, 58, 58);
