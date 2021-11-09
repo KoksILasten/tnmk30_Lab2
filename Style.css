@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgba(37, 37, 37, 1);
+}
+
+.maintext {
+  color: rgb(58, 58, 58);
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 5px;
+}
+.topnav a {
+  float: left;
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+.topnav a:active {
+  background-color: gray;
+  color: white;
+}
+h1 {
+  font-family: "Stardos Stencil", cursive;
+  color: rgb(58, 58, 58);
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 72px;
+  width: auto;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  margin: 5px;
+}
+img {
+  display: block;
+  margin: 1cm auto;
+  border-radius: 5px;
+}
+.flex-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+}
+table {
+  border: 2px solid black;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+ul {
+  padding-left: 30px;
+}
+li {
+  text-align: left;
+  padding: 5px;
+}
+#headermenu {
+  display: flex;
+  list-style-type: none;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+a:visited {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  color: rgb(0, 0, 0);
+}
+a:active {
+  color: rgb(0, 0, 0);
+}
