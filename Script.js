@@ -6,6 +6,7 @@ function currentTime() {
   hour = updateTime(hour);
   min = updateTime(min);
   sec = updateTime(sec);
+  // console.log(document.getElementById("clock"));
   document.getElementById("clock").innerText =
     hour + " : " + min + " : " + sec; /* adding time to the div */
   var t = setTimeout(function () {
@@ -21,4 +22,8 @@ function updateTime(k) {
   }
 }
 
-currentTime(); /* calling currentTime() function to initiate the process */
+// currentTime(); /* calling currentTime() function to initiate the process */
+
+function changeColor() {
+  document.body.style.backgroundColor = "red";
+}

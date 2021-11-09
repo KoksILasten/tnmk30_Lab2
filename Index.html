@@ -3,15 +3,20 @@
   <head>
     <title>Lab 2</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width-device-width" , initial scale="1.0" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <link href="Style.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="Script.js"></script>
   </head>
-  <body>
+  <body onload="currentTime()">
     <div class="topnav">
       <ul id="headermenu">
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="qwe.html">Actors</a></li>
-        <li><a href="#Release_Dates">Release dates</a></li>
+        <li>
+          <button type="button" onclick="changeColor()">
+            background color
+          </button>
+        </li>
+        <li><a href="qwe.html">Minimoog</a></li>
+        <li><a href="Lek3.html">Counter</a></li>
       </ul>
     </div>
     <p id="clock" class="maintext"></p>
