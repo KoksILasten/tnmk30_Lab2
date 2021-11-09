@@ -30,7 +30,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 2vw;
 }
 .topnav a:hover {
   background-color: black;
@@ -49,12 +49,12 @@ h1 {
   color: rgb(58, 58, 58);
   background-color: rgb(255, 255, 255);
   font-weight: normal;
-  font-size: 72px;
+  font-size: 7vw;
   width: auto;
   text-align: center;
 }
 h2 {
-  font-size: 25px;
+  font-size: 3vw;
   margin: 5px;
 }
 img {
