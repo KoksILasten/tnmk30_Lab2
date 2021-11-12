@@ -25,5 +25,9 @@ function updateTime(k) {
 // currentTime(); /* calling currentTime() function to initiate the process */
 
 function changeColor() {
-  document.body.style.backgroundColor = "red";
+  if ((document.body.style.backgroundColor = "black")) {
+    document.body.style.backgroundColor = "white";
+  } else {
+    document.body.style.backgroundColor = "black";
+  }
 }
